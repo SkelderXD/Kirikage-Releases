@@ -1,7 +1,8 @@
 # Kirikage
 
 Downloads und automatische Updates für **Kirikage** – Third-Person-Action im Koop für bis zu 4 Spieler
-(in Entwicklung, aktuell Bewegung, Kamera, Lock-on und Mehrspieler-Grundgerüst).
+(in Entwicklung, aktuell Bewegung mit Ninja-Parkour, Kamera, Lock-on und Mehrspieler-Grundgerüst; zum Ausprobieren
+gibt es einen Parkour-Kurs).
 
 ## Installieren (nur einmal nötig)
 
@@ -23,7 +24,8 @@ erhalten. Während eines laufenden Spiels wird nichts geladen – erst zurück i
 
 ## Zusammen spielen
 
-- **Über Steam** (Steam läuft und ist angemeldet): Einer wählt **Spiel hosten**, die anderen **Spiele suchen** →
+- **Über Steam** (Steam läuft und ist angemeldet): Einer wählt **Spiel hosten: …** (Parkour-Kurs oder Testarena; allein
+  spielen = einfach hosten), die anderen **Spiele suchen** →
   **Beitreten**. Am Router muss nichts freigegeben werden. Zum Testen nutzt das Spiel Valves Test-App
   „Spacewar“ – in Steam steht deshalb „Spacewar“ als laufendes Spiel.
 - **Im LAN / ohne Steam:** **Spiele suchen** findet Spiele im lokalen Netz, alternativ die IP-Adresse des Hosts
@@ -34,13 +36,17 @@ erhalten. Während eines laufenden Spiels wird nichts geladen – erst zurück i
 
 | Aktion | Tastatur/Maus | Gamepad |
 |---|---|---|
-| Bewegen | W A S D | linker Stick (leicht = gehen) |
+| Gehen | W A S D | linken Stick leicht neigen |
+| Laufen | Shift + W A S D | linken Stick ganz neigen |
+| Sprinten | Shift länger halten (nach 1 s Anlauf) | B halten |
 | Kamera | Maus | rechter Stick |
-| Springen | Leertaste | A |
-| Sprinten (halten) | Shift links | B |
-| Gehen an/aus | Alt links | – |
-| Ducken an/aus | Strg links oder C | linken Stick drücken |
-| Lock-on an/aus | mittlere Maustaste oder Q | rechten Stick drücken |
-| Ziel wechseln | Mausrad oder Maus kräftig zur Seite | rechten Stick zur Seite |
+| Springen, Doppelsprung | Leertaste | A |
+| Ducken an/aus, Rutschen (beim Laufen) | Strg links oder C | linken Stick drücken |
+| Lock-on an/aus (ohne Ziel: Kamera hinter die Figur) | mittlere Maustaste oder Q | rechten Stick drücken |
+| Ziel wechseln | Mausrad oder Maus schnell zur Seite | rechten Stick zur Seite |
+| Menü (mit Steuerung und Kartenwechsel) | Esc | Start |
+
+Doppelsprung: in der Luft nochmal springen – mit Richtung ein Salto dorthin, ohne Richtung ein Rückwärtssalto.
+Alle Parkour-Bewegungen stehen im ESC-Menü.
 
 Dieses Repository enthält nur die fertigen Spieldateien, keinen Quellcode.
