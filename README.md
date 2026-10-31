@@ -1,8 +1,9 @@
 # Kirikage
 
 Downloads und automatische Updates für **Kirikage** – Third-Person-Action im Koop für bis zu 4 Spieler
-(in Entwicklung, aktuell Bewegung mit Ninja-Parkour, Kamera, Lock-on, Mehrspieler-Grundgerüst und Katana-Kampf gegen
-Trainingspuppen; zum Ausprobieren gibt es einen Parkour-Kurs und eine Testarena).
+(in Entwicklung, aktuell Bewegung mit Ninja-Parkour, Kamera, Lock-on, Mehrspieler-Grundgerüst und Katana-Kampf mit
+Blocken, Deflect, Ausweichrolle, Todesstoß und Todesstoß aus der Luft gegen Trainingspuppen, die zum Teil
+zurückschlagen; zum Ausprobieren gibt es einen Parkour-Kurs und eine Testarena).
 
 ## Installieren (nur einmal nötig)
 
@@ -45,11 +46,19 @@ erhalten. Während eines laufenden Spiels wird nichts geladen – erst zurück i
 | Lock-on an/aus (ohne Ziel: Kamera hinter die Figur) | mittlere Maustaste oder Q | rechten Stick drücken |
 | Ziel wechseln | Mausrad oder Maus schnell zur Seite | rechten Stick zur Seite |
 | Angriff (mehrmals = Kombo), bei wehrlosem Gegner Todesstoß | linke Maustaste | RB |
+| Todesstoß aus der Luft (in der Luft bzw. an Wand oder Kante über einem Gegner) | linke Maustaste | RB |
 | Blocken (halten) | rechte Maustaste | LB |
+| Deflect (kurz vor dem Treffer drücken) | rechte Maustaste | LB |
+| Ausweichrolle (in Bewegungsrichtung, ohne Richtung nach hinten) | Alt | X |
 | Menü (mit Steuerung und Kartenwechsel) | Esc | Start |
 
 Doppelsprung: in der Luft nochmal springen – mit Richtung ein Salto dorthin, ohne Richtung ein Rückwärtssalto.
 Kampf: Treffer füllen die Haltung des Gegners; ist sie voll, ist er kurz wehrlos (roter Punkt) – dann Angriff =
-Todesstoß. Alle Bewegungen stehen im ESC-Menü.
+Todesstoß. Blocken hält Schläge ab, kostet aber Haltung; wer die Blocktaste kurz vor dem Treffer drückt, wehrt ab
+(Deflect) – der Gegner prallt zurück und verliert selbst Haltung. Wer kurz vor dem Treffer wegrollt, ist am Anfang
+der Rolle unverwundbar. Wer von oben auf einen Gegner springt (Sprung, Wand, Kante) und in der Luft angreift,
+stürzt sich auf ihn und tötet ihn mit einem Stich von oben. In der Testarena stehen vier Puppen, die angreifen (vom
+Start aus links, Schild „ÜBUNGSKAMPF“), und vier Podeste zum Üben des Todesstoßes aus der Luft (rechts, Schild
+„TODESSTOSS AUS DER LUFT“). Alle Bewegungen stehen im ESC-Menü.
 
 Dieses Repository enthält nur die fertigen Spieldateien, keinen Quellcode.
