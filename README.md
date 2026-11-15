@@ -1,7 +1,7 @@
 # Kirikage
 
 Downloads und automatische Updates für **Kirikage** – Third-Person-Action im Koop für bis zu 4 Spieler
-(in Entwicklung, aktuell Bewegung mit Ninja-Parkour und Enterhaken, Werkzeuge der linken Hand, Schleichen mit Wachen, Kamera, Lock-on, Mehrspieler-Grundgerüst und Katana-Kampf mit
+(in Entwicklung, aktuell Bewegung mit Ninja-Parkour und Enterhaken, Werkzeuge der linken Hand, Schleichen mit Wachen, Tempelwachen mit Speer, die in Gruppen kämpfen, Kamera, Lock-on, Mehrspieler-Grundgerüst und Katana-Kampf mit
 Blocken, Deflect, Ausweichrolle, starkem Schlag, Ziehschnitt, Todesstoß und Todesstoß aus der Luft gegen Trainingspuppen, die zum
 Teil zurückschlagen, blocken und parieren; zum Ausprobieren gibt es einen Parkour-Kurs und eine Testarena).
 
@@ -82,5 +82,14 @@ Schleichen: Wachen sehen und hören dich – über ihrem Kopf füllt sich eine g
 voll ist sie rot (alarmiert, sie kämpft). Geduckt (**C**) bist du leise, im hohen Gras unsichtbar; ahnt eine Wache
 nichts, tötet sie ein **Schleich-Todesstoß** von hinten (roter Punkt, Angriff) bzw. von oben. Station „SCHLEICHEN“ in
 der Testarena (hinter dem Start).
+
+Gegner: Die Wachen sind **Tempelwachen** in roter Lackrüstung mit Strohhut und kämpfen mit dem **Speer** – aus gut zwei
+Metern Abstand mit schnellem Stoß (oft doppelt), Finte und weitem Schwung, aus der Distanz mit Sprungangriff und
+Sturmstoß; wer ihnen zu nah kommt, dem springen sie zurück auf Speerlänge. Glüht die Speerklinge rot auf (dazu ein
+tiefer Trommelschlag), kommt ein Angriff, den man nicht blocken kann: über das **Fegen** am Boden springen (oder
+wegrollen), dem **Sturmstoß** mit der Rolle ausweichen.
+Alarmierte Wachen gehen um Mauern herum und Treppen hinunter, im Koop verteilen sie sich auf die Spieler.
+Höchstens zwei greifen denselben Spieler gleichzeitig an – die anderen umkreisen ihn mit etwas Abstand und warten auf
+ihre Gelegenheit. Station „GEGNER“ in der Testarena (links hinter dem Start): vier Bahnen mit je drei Wachen.
 
 Dieses Repository enthält nur die fertigen Spieldateien, keinen Quellcode.
